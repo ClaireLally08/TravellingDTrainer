@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-#logo,#navbar
-{
-    line-height:75px;
-}
-
 #logo
     {
         text-align: left;
         letter-spacing: 1px;
         word spacing: 4px;
-        line-height: 0.9;
+        line-height: 0.8;
         font-family: "Permanent Marker";
         font-size: 100%;
         color: #777777;
     }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav li {
+    float: right;
+    display: inline;
+
+}
+
+a
+{
+    text-decoration:none;
+}
 
