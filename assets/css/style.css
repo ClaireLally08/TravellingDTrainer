@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
+header
+{
+    display:inline;
+    background-color: gray;
+}
 #logo
     {
         text-align: left;
@@ -21,9 +26,7 @@ ul {
 nav li {
     float: right;
     display: inline;
-
 }
-
 a
 {
     text-decoration:none;
