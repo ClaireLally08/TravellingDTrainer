@@ -20,27 +20,22 @@ header
         text-align: left;
     }
 
-ul 
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a
-{
-    text-decoration:none;
-}
-
-a :hover
-{
-    text-decoration:underline;
-}
-
 .navbar-nav
 {
     font-family: "Permanent Marker";
     font-size: 120%;
-    color:red;
     text-align:center;
+}
+.nav-item
+{
+    color: #2F4F4F!important;
+}
+
+.nav-item:hover
+{
+    text-decoration: underline;
+}
+#logo:hover
+{
+    color:cadetblue;
 }
