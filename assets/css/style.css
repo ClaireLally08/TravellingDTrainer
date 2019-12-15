@@ -15,7 +15,7 @@ header
         letter-spacing: 2px;
         line-height: 0.7;
         font-family: "Coming Soon";
-        font-size: 150%;
+        font-size: 250%;
         color: #5D7070;
         text-align: left;
     }
@@ -23,8 +23,9 @@ header
 .navbar-nav
 {
     font-family: "Permanent Marker";
-    font-size: 120%;
-    text-align:center;
+    font-size: 150%;
+    letter-spacing:2px;
+    text-align: center;
 }
 .nav-item
 {
@@ -38,4 +39,15 @@ header
 #logo:hover
 {
     color:cadetblue;
+}
+
+.active
+{
+    text-decoration: underline;
+    color:cadetblue;
+}
+
+.img-fluid
+{
+    max-height: 80%!important;
 }
