@@ -10,16 +10,16 @@ header
     {
         position: relative;
     }
-.text-block
+.Landingtext
 {
     position:absolute;
-    bottom: 30%;
-  right: 20%;
-  background-color: cadetblue;
-  opacity: 80%;
-  color: #c4ccd4;
-  padding: 50px, 20px, 50px;
-  font-size:0.4em;
+    font-family:Neucha;
+    bottom: 10%;
+    right: 10%;
+    background-color: #DCC9B6;
+    color: #727D71;
+    padding: 20px 20px 20px 20px;
+    font-size: 0.5rem;
 }
 
 #logo
@@ -92,7 +92,45 @@ header
     color: #2F4F4F;
 }
 
-@media screen and (max-width: 600px) 
+.footer {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align:center;
+}
+a {
+    padding: 5px 15px 5px 10px;
+    background-color: transparent;
+}
+
+.alignment {
+    line-height: 2px;
+}
+
+i {
+    display: inline-block;
+    background-color: lavender;
+    color: #2F4F4F;
+    width: 41px;
+    height: 41px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+
+}
+
+i:hover {
+    color: #5d7070;
+
+}
+
+@media screen and (max-width: 1024px) 
 {
   .column
   {
