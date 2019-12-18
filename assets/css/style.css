@@ -5,6 +5,23 @@ header
 {
     background-color: #fffff;
 }
+
+.Main-Landing
+    {
+        position: relative;
+    }
+.text-block
+{
+    position:absolute;
+    bottom: 30%;
+  right: 20%;
+  background-color: cadetblue;
+  opacity: 80%;
+  color: #c4ccd4;
+  padding: 50px, 20px, 50px;
+  font-size:0.4em;
+}
+
 #logo
     {
         letter-spacing: 2px;
@@ -22,9 +39,9 @@ header
     letter-spacing:2px;
     text-align: center;
 }
-.nav-item
+.navbar-light .navbar-nav .nav-link
 {
-    color: #2F4F4F!important;
+    color: #2F4F4F;
 }
 
 .nav-item:hover
