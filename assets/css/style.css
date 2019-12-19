@@ -20,7 +20,22 @@ header
     color: #727D71;
     padding: 20px 20px 20px 20px;
     font-size: 0.5rem;
+    opacity:80%;
 }
+.About 
+{
+    background-color: #DCC9B6;
+    color: #727D71;
+    font-family: Neucha;
+    font-size: 5em;
+    text-align: center;
+    padding:20px 0px 15px 0px;
+}
+.short-about
+{
+    font-size:0.2em;
+}
+
 
 #logo
     {
@@ -139,8 +154,13 @@ i:hover {
 
 @media screen and (max-width: 1024px) 
 {
-  .column
+  #Services div
   {
-    width: 100%!important;
+    width: 100%;
+  }
+
+  .Landingtext
+  {
+      visibility: hidden;
   }
 }
