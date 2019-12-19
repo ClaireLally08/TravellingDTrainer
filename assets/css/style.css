@@ -32,6 +32,13 @@ header
         text-align: left;
     }
 
+.navbar-light .navbar-toggler-icon
+{
+    background-image: url("https://image.flaticon.com/icons/png/512/1256/1256450.png");
+    width:20px;
+    height:20px;
+}
+
 .navbar-nav
 {
     font-family: "Coming Soon";
