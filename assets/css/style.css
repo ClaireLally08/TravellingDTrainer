@@ -45,16 +45,6 @@
   color: #A3B4A2;
 }
 
-.service-icon {
-    font-size: 3.125rem;
-    left: 0;
-    top: 50px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    color: #7e48b9;
-}
-
 
 .divider
 {
@@ -111,15 +101,6 @@
   font-family: Neucha;
   color: #187795;
 }
-
-
-.icon {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 8px solid #A3B4A2;
-}
-
 .btn {
   font-family: "Coming Soon";
 }
@@ -133,7 +114,19 @@
   padding-right: 2em;
   text-align: center;
 }
-
+#Services
+{
+    padding-bottom:400px;
+}
+.service-icon {
+    font-size: 3.125rem;
+    left: 0;
+    top: 50px;
+    padding-bottom:3rem;
+    text-align: center;
+    width: 100%;
+    color: #2F4F4F;
+}
 .Type {
   font-family: Neucha;
   font-size: 190%;
