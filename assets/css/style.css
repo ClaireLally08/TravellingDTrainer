@@ -6,8 +6,6 @@
   width: 100%
 }
 
-
-
 #logo {
   letter-spacing: 2px;
   line-height: 0.7;
@@ -16,6 +14,11 @@
   color: #38686A;
   text-align: left;
 }
+
+#logo:hover {
+  color: #A3B4A2;
+}
+
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("https://image.flaticon.com/icons/png/512/1256/1256450.png");
@@ -36,9 +39,6 @@
   text-decoration: underline;
 }
 
-#logo:hover {
-  color: #A3B4A2;
-}
 
 .active {
   text-decoration: underline;
@@ -111,7 +111,6 @@
   background-color: #CDC6AE;
 }
 
-
 .Type {
   font-family: Neucha;
   font-size: 190%;
@@ -131,27 +130,43 @@
   color: #38686A;
 }
 
-#contact-head 
-{
+.title,
+#contact-head {
+  padding-top: 1rem;
   text-align: center;
-  padding-top:5em;
+  font-family: Neucha;
+  color: #38686A;
+  font-size: 3rem;
 }
 
-input[type=text],select, textarea {
+.about-me {
+  font-family: Neucha;
+  font-size: 1.1rem;
+  color: #38686A;
+}
+
+input[type=text],
+select,
+textarea {
   width: 70%;
   padding: 12px;
   border: 1px solid #ccc;
 }
 
 input[type=submit] {
-  color: black;
-  cursor: pointer;
-  text-align:center;
+  color: #CDC6AE;
+  text-align: center;
+  background-color: #38686A;
+  width: 20%;
 }
-.submit
-{
-      text-align: center;
-      margin-left:50%;
+
+input[type=submit]:hover {
+  background-color: #A3B4A2;
+}
+
+.submit {
+  text-align: center;
+  margin-left: 50%;
 }
 
 .container {
@@ -162,14 +177,15 @@ input[type=submit] {
 .col-25 {
   float: left;
   width: 25%;
-  margin-top: 6px;
+  margin-top: 0.2em;
 }
 
 .col-75 {
   float: left;
   width: 75%;
-  margin-top: 6px;
+  margin-top: 0.2em;
 }
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -188,7 +204,7 @@ input[type=submit] {
   margin-top: 2.5px;
   margin-bottom: 2.5px;
   font-size: 2em;
-  padding: 10px 20px 10px 15px;
+  padding: 20px 20px 10px 15px;
 
 }
 
@@ -210,19 +226,18 @@ input[type=submit] {
     visibility: hidden;
   }
 
-  .col-25, .col-75,
-  input[type=submit] 
-  {
+  .col-25,
+  .col-75,
+    {
     width: 100%;
-}
-.submit
-{
-      margin-left:0%;
-}
+  }
+
+  .submit {
+    margin-left: 50%;
+  }
 }
 
-@media (min-width: 1024px) 
-{
+@media (min-width: 1024px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
