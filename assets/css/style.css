@@ -1,186 +1,172 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Coming+Soon|Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
 
-.Main-Landing
-    {
-        position: relative;
-        width:100%
-    }
-
-
-
-#logo
-    {
-        letter-spacing: 2px;
-        line-height: 0.7;
-        font-family: "Coming Soon";
-        font-size: 250%;
-        color: #38686A;
-        text-align: left;
-    }
-
-.navbar-light .navbar-toggler-icon
-{
-    background-image: url("https://image.flaticon.com/icons/png/512/1256/1256450.png"); 
+.Main-Landing {
+  position: relative;
+  width: 100%
 }
 
-.navbar-nav
-{
-    font-family: "Coming Soon";
-    font-size: 150%;
-    letter-spacing:2px;
-    text-align: center;
-}
-.navbar-light .navbar-nav .nav-link
-{
-    color: #2F4F4F;
+
+
+#logo {
+  letter-spacing: 2px;
+  line-height: 0.7;
+  font-family: "Coming Soon";
+  font-size: 250%;
+  color: #38686A;
+  text-align: left;
 }
 
-.nav-item:hover
-{
-    text-decoration: underline;
-}
-#logo:hover
-{
-    color: #A3B4A2;
+.navbar-light .navbar-toggler-icon {
+  background-image: url("https://image.flaticon.com/icons/png/512/1256/1256450.png");
 }
 
-.active
-{
-    text-decoration: underline;
-    color: #A3B4A2;
+.navbar-nav {
+  font-family: "Coming Soon";
+  font-size: 150%;
+  letter-spacing: 2px;
+  text-align: center;
 }
-.Landingtext
-{
-    position:absolute;
-    font-family:Neucha;
-    bottom: 10%;
-    left: 20%;
-    background-color: #CDC6AE;
-    color: #38686A;
-    padding: 20px 20px 20px 20px;
-    font-size: 0.5rem;
-    opacity:80%;
-    width: 20%;
-}
-.About 
-{
-    position:relative; 
-    background-color: #CDC6AE;
-    color: #38686A;
-    font-family: Neucha;
-    font-size: 5em;
-    text-align: center;
-    padding:20px 0px 15px 0px;
-}
-.short-about
-{
-    font-size:0.2em;
-}
-#About-Me div
-{
 
-    width: 50%;
-    float: left;
-    text-align: center;
-    padding-top:3rem;
-    padding-bottom:2em;
-    padding-right: 2em;
+.navbar-light .navbar-nav .nav-link {
+  color: #2F4F4F;
 }
-.home-about
-{
-    text-align: center;
-    font-size: 1.3rem;
-    font-family: Neucha;
-    color:#187795;
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+#logo:hover {
+  color: #A3B4A2;
+}
+
+.active {
+  text-decoration: underline;
+  color: #A3B4A2;
+}
+
+.Landingtext {
+  position: absolute;
+  font-family: Neucha;
+  bottom: 10%;
+  left: 20%;
+  background-color: #CDC6AE;
+  color: #38686A;
+  padding: 20px 20px 20px 20px;
+  font-size: 0.5rem;
+  opacity: 80%;
+  width: 20%;
+}
+
+.About {
+  position: relative;
+  background-color: #CDC6AE;
+  color: #38686A;
+  font-family: Neucha;
+  font-size: 5em;
+  text-align: center;
+  padding: 20px 0px 15px 0px;
+}
+
+.short-about {
+  font-size: 0.2em;
+}
+
+#About-Me div {
+
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2em;
+  padding-right: 2em;
+}
+
+.home-about {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: Neucha;
+  color: #187795;
 }
 
 
 .icon {
-    height:300px;
-    width:300px;
-    border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
+
 .btn {
-    font-family: "Coming Soon";
+  font-family: "Coming Soon";
 }
 
-#Services div
-{
+#Services div {
 
-    width: 33%;
-    height: 300px;
-    float: left;
-    padding-top:3em;
-    padding-right:2em;
-    text-align: center;    
-    background-color: #CDC6AE;
+  width: 33%;
+  height: 300px;
+  float: left;
+  padding-top: 3em;
+  padding-right: 2em;
+  text-align: center;
+  background-color: #CDC6AE;
 }
 
-.Type
-{
-    font-family: Neucha;
-    font-size: 190%;
-    color: #38686A;
-    text-align:center;
+.Type {
+  font-family: Neucha;
+  font-size: 190%;
+  color: #38686A;
+  text-align: center;
 }
 
-.length
-{
-    font-family: Neucha;
-    font-size: 130%;
-    color: #38686A;
+.length {
+  font-family: Neucha;
+  font-size: 130%;
+  color: #38686A;
 }
 
-.subtxt
-{
-    font-family: Neucha;
-    font-size: 100%;
-    color: #38686A;
+.subtxt {
+  font-family: Neucha;
+  font-size: 100%;
+  color: #38686A;
 }
 
 .site-footer {
-    text-align:center;
+  text-align: center;
 }
 
-.Socials
- {
-    display: inline-block;
-    color: #38686A;
-    vertical-align: middle;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
-    font-size:2em;
-    padding: 10px 20px 10px 15px;
+.Socials {
+  display: inline-block;
+  color: #38686A;
+  vertical-align: middle;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  font-size: 2em;
+  padding: 10px 20px 10px 15px;
 
 }
-.Socials :hover
-{
-    color:#A3B4A2;
+
+.Socials :hover {
+  color: #A3B4A2;
 }
 
 
-@media screen and (max-width: 1024px) 
-{
-  #Services div
-  {
-    width: 100%;
-  }
-  #About-Me div
-  {
+@media screen and (max-width: 1024px) {
+  #Services div {
     width: 100%;
   }
 
-  .Landingtext
-  {
-      visibility: hidden;
+  #About-Me div {
+    width: 100%;
+  }
+
+  .Landingtext {
+    visibility: hidden;
   }
 }
-@media (min-width: 1024px)
-{
-.navbar-expand-lg .navbar-nav .nav-link 
-{
+
+@media (min-width: 1024px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
-}
+  }
 }
