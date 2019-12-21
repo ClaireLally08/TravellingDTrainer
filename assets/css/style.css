@@ -45,6 +45,27 @@
   color: #A3B4A2;
 }
 
+.service-icon {
+    font-size: 3.125rem;
+    left: 0;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #7e48b9;
+}
+
+
+.divider
+{
+    max-width: 5rem;
+    border-width: .2rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 1px solid #2F4F4F;
+}
+
 .Landingtext {
   position: absolute;
   font-family: Neucha;
@@ -60,16 +81,18 @@
 
 .About {
   position: relative;
-  background-color: #CDC6AE;
   color: #38686A;
   font-family: Neucha;
   font-size: 5em;
   text-align: center;
-  padding: 20px 0px 15px 0px;
+  padding: 200px 40px;
 }
 
 .short-about {
   font-size: 0.2em;
+  margin-left:4rem;
+  margin-right:4rem;
+
 }
 
 #About-Me div {
@@ -94,6 +117,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  border: 8px solid #A3B4A2;
 }
 
 .btn {
@@ -108,7 +132,6 @@
   padding-top: 3em;
   padding-right: 2em;
   text-align: center;
-  background-color: #CDC6AE;
 }
 
 .Type {
