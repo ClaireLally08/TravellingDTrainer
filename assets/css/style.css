@@ -116,12 +116,11 @@
 }
 #Services
 {
-    padding-bottom:400px;
+    padding-bottom:40em;
+    padding-left:40px;
 }
 .service-icon {
     font-size: 3.125rem;
-    left: 0;
-    top: 50px;
     padding-bottom:3rem;
     text-align: center;
     width: 100%;
@@ -129,23 +128,24 @@
 }
 .Type {
   font-family: Neucha;
-  font-size: 190%;
+  font-size: 2.3rem;
   color: #38686A;
   text-align: center;
 }
 
-.length {
-  font-family: Neucha;
-  font-size: 130%;
-  color: #38686A;
-}
-
 .subtxt {
   font-family: Neucha;
-  font-size: 100%;
+  font-size: 1.5rem;
   color: #38686A;
 }
-
+.column
+{
+    min-height: 700px;
+}
+.service-divider
+{
+    visibility: hidden;
+}
 .title,
 #contact-head {
   padding-top: 1rem;
@@ -250,6 +250,11 @@ input[type=submit]:hover {
 
   .submit {
     margin-left: 50%;
+  }
+
+  .service-divider
+  {
+      visibility: visible; 
   }
 }
 
