@@ -91,8 +91,8 @@
 
 
 .icon {
-  height: 300px;
   width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
@@ -111,6 +111,7 @@
   background-color: #CDC6AE;
 }
 
+
 .Type {
   font-family: Neucha;
   font-size: 190%;
@@ -128,6 +129,52 @@
   font-family: Neucha;
   font-size: 100%;
   color: #38686A;
+}
+
+#contact-head 
+{
+  text-align: center;
+  padding-top:5em;
+}
+
+input[type=text],select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+input[type=submit] {
+  color: black;
+  cursor: pointer;
+  text-align:center;
+}
+.submit
+{
+      text-align: center;
+      margin-left:50%;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .site-footer {
@@ -162,9 +209,20 @@
   .Landingtext {
     visibility: hidden;
   }
+
+  .col-25, .col-75,
+  input[type=submit] 
+  {
+    width: 100%;
+}
+.submit
+{
+      margin-left:0%;
+}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) 
+{
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
