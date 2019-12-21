@@ -1,40 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Coming+Soon|Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
 
-header
-{
-    background-color: #fffff;
-}
-
 .Main-Landing
     {
         position: relative;
+        width:100%
     }
-.Landingtext
-{
-    position:absolute;
-    font-family:Neucha;
-    bottom: 10%;
-    right: 10%;
-    background-color: #DCC9B6;
-    color: #727D71;
-    padding: 20px 20px 20px 20px;
-    font-size: 0.5rem;
-    opacity:80%;
-}
-.About 
-{
-    background-color: #DCC9B6;
-    color: #727D71;
-    font-family: Neucha;
-    font-size: 5em;
-    text-align: center;
-    padding:20px 0px 15px 0px;
-}
-.short-about
-{
-    font-size:0.2em;
-}
+
 
 
 #logo
@@ -43,15 +15,13 @@ header
         line-height: 0.7;
         font-family: "Coming Soon";
         font-size: 250%;
-        color: #5D7070;
+        color: #38686A;
         text-align: left;
     }
 
 .navbar-light .navbar-toggler-icon
 {
-    background-image: url("https://image.flaticon.com/icons/png/512/1256/1256450.png");
-    width:20px;
-    height:20px;
+    background-image: url("https://image.flaticon.com/icons/png/512/1256/1256450.png"); 
 }
 
 .navbar-nav
@@ -72,13 +42,67 @@ header
 }
 #logo:hover
 {
-    color:cadetblue;
+    color: #A3B4A2;
 }
 
 .active
 {
     text-decoration: underline;
-    color:cadetblue;
+    color: #A3B4A2;
+}
+.Landingtext
+{
+    position:absolute;
+    font-family:Neucha;
+    bottom: 10%;
+    left: 20%;
+    background-color: #CDC6AE;
+    color: #38686A;
+    padding: 20px 20px 20px 20px;
+    font-size: 0.5rem;
+    opacity:80%;
+    width: 20%;
+}
+.About 
+{
+    position:relative; 
+    background-color: #CDC6AE;
+    color: #38686A;
+    font-family: Neucha;
+    font-size: 5em;
+    text-align: center;
+    padding:20px 0px 15px 0px;
+}
+.short-about
+{
+    font-size:0.2em;
+}
+#About-Me div
+{
+
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top:3rem;
+    padding-bottom:2em;
+    padding-right: 2em;
+}
+.home-about
+{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Neucha;
+    color:#187795;
+}
+
+
+.icon {
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+}
+.btn {
+    font-family: "Coming Soon";
 }
 
 #Services div
@@ -86,17 +110,18 @@ header
 
     width: 33%;
     height: 300px;
-    margin-left: 4px;
     float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
+    padding-top:3em;
+    padding-right:2em;
+    text-align: center;    
+    background-color: #CDC6AE;
 }
 
 .Type
 {
     font-family: Neucha;
     font-size: 190%;
-    color: #2F4F4F;
+    color: #38686A;
     text-align:center;
 }
 
@@ -104,57 +129,44 @@ header
 {
     font-family: Neucha;
     font-size: 130%;
-    color: #2F4F4F;
+    color: #38686A;
 }
 
 .subtxt
 {
     font-family: Neucha;
     font-size: 100%;
-    color: #2F4F4F;
+    color: #38686A;
 }
 
-.footer {
-    margin-bottom: 20px;
-    margin-top: 30px;
+.site-footer {
     text-align:center;
 }
-a {
-    padding: 5px 15px 5px 10px;
-    background-color: transparent;
-}
 
-.alignment {
-    line-height: 2px;
-}
-
-i {
+.Socials
+ {
     display: inline-block;
-    background-color: lavender;
-    color: #2F4F4F;
-    width: 41px;
-    height: 41px;
-    padding: 20px 0;
-    border-radius: 50%;
-    font-size: 28px;
-    text-align: center;
+    color: #38686A;
     vertical-align: middle;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
     margin-top: 2.5px;
     margin-bottom: 2.5px;
+    font-size:2em;
+    padding: 10px 20px 10px 15px;
 
 }
-
-i:hover {
-    color: #5d7070;
-
+.Socials :hover
+{
+    color:#A3B4A2;
 }
+
 
 @media screen and (max-width: 1024px) 
 {
   #Services div
+  {
+    width: 100%;
+  }
+  #About-Me div
   {
     width: 100%;
   }
@@ -163,4 +175,12 @@ i:hover {
   {
       visibility: hidden;
   }
+}
+@media (min-width: 1024px)
+{
+.navbar-expand-lg .navbar-nav .nav-link 
+{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
 }
