@@ -182,13 +182,14 @@ font-family: Neucha;
   color: #A3B4A2;
 }
 
-pp
+.policy
 {
-    text-align:right;
-    float:right;
-    padding-left:30px;
-    color:red;
-    
+    float: right;
+    color:#2F4F4F;
+    padding-top:30px;
+}
+.policy :hover{
+    color:#2F4F4F;
 }
 
 
