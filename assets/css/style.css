@@ -103,6 +103,12 @@
 }
 .btn {
   font-family: "Coming Soon";
+  color:#2F4F4F
+}
+.btn :hover
+{
+    color: #187795;
+    text-decoration: underline;
 }
 
 #Services div {
@@ -146,14 +152,7 @@
 {
     visibility: hidden;
 }
-.title,
-#contact-head {
-  padding-top: 1rem;
-  text-align: center;
-  font-family: Neucha;
-  color: #38686A;
-  font-size: 3rem;
-}
+
 
 .about-me {
   font-family: Neucha;
@@ -161,52 +160,12 @@
   color: #38686A;
 }
 
-input[type=text],
-select,
-textarea {
-  width: 70%;
-  padding: 12px;
-  border: 1px solid #ccc;
-}
-
-input[type=submit] {
-  color: #CDC6AE;
-  text-align: center;
-  background-color: #38686A;
-  width: 20%;
-}
-
-input[type=submit]:hover {
-  background-color: #A3B4A2;
-}
-
-.submit {
-  text-align: center;
-  margin-left: 50%;
-}
-
-.container {
-  border-radius: 5px;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 0.2em;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 0.2em;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.title
+{
+    text-align:center;
+    font-family: "Coming Soon";
+    padding-top:200px;
+    padding-bottom:100px;
 }
 
 .site-footer {
@@ -241,17 +200,6 @@ input[type=submit]:hover {
   .Landingtext {
     visibility: hidden;
   }
-
-  .col-25,
-  .col-75,
-    {
-    width: 100%;
-  }
-
-  .submit {
-    margin-left: 50%;
-  }
-
   .service-divider
   {
       visibility: visible; 
