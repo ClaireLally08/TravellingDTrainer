@@ -84,23 +84,6 @@
   margin-right:4rem;
 
 }
-
-#About-Me div {
-
-  width: 50%;
-  float: left;
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 2em;
-  padding-right: 2em;
-}
-
-.home-about {
-  text-align: center;
-  font-size: 1.3rem;
-  font-family: Neucha;
-  color: #187795;
-}
 .btn {
   font-family: "Coming Soon";
   color:#2F4F4F
@@ -152,14 +135,6 @@
 {
     visibility: hidden;
 }
-
-
-.about-me {
-  font-family: Neucha;
-  font-size: 1.1rem;
-  color: #38686A;
-}
-
 .title
 {
     text-align:center;
@@ -167,6 +142,18 @@
     padding-top:200px;
     padding-bottom:100px;
 }
+
+.about-me {
+  font-family: Neucha;
+  font-size: 1.1rem;
+  text-align:center;
+  color: #38686A;
+}
+.end{
+      padding-bottom:200px;
+}
+
+
 
 .site-footer {
   text-align: center;
