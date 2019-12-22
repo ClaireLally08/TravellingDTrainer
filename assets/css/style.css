@@ -20,9 +20,10 @@
 }
 
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("https://image.flaticon.com/icons/png/512/1256/1256450.png");
+.navbar-light .navbar-toggler-icon{
+  background-image: url("https://image.flaticon.com/icons/png/512/616/616408.png");
 }
+
 
 .navbar-nav {
   font-family: "Coming Soon";
@@ -148,6 +149,11 @@
   font-size: 1.1rem;
   text-align:center;
   color: #38686A;
+  padding-bottom: 0.5rem;
+}
+.main-about{
+    padding-left: 4em;
+    padding-right:4em;
 }
 .end{
       padding-bottom:200px;
