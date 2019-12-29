@@ -170,7 +170,7 @@ font-family: Neucha;
 .Socials {
   display: inline-block;
   color: #38686A;
-  vertical-align: middle;
+  float:left;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
   font-size: 2em;
@@ -192,7 +192,31 @@ font-family: Neucha;
     color:#2F4F4F;
 }
 
+.contact-heading {
+    font-family: "Coming Soon", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 
+.subhead
+{
+    font-family: "Coming Soon", sans-serif;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    font-family: "Coming Soon", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #187795;
+}
 @media screen and (max-width: 1024px) {
   #Services div {
     width: 100%;
