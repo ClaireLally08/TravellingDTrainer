@@ -25,7 +25,7 @@
 }
 
 
-.navbar-nav {
+.nav-item {
   font-family: "Coming Soon";
   font-size: 150%;
   letter-spacing: 2px;
@@ -99,7 +99,7 @@ font-family: Neucha;
     text-decoration: underline;
 }
 
-#Services div {
+#services div {
 
   width: 33%;
   height: 300px;
@@ -108,7 +108,7 @@ font-family: Neucha;
   padding-right: 2em;
   text-align: center;
 }
-#Services
+#services
 {
     padding-bottom:40em;
     padding-left:40px;
@@ -120,7 +120,7 @@ font-family: Neucha;
     width: 100%;
     color: #2F4F4F;
 }
-.Type {
+.service {
   font-family: Neucha;
   font-size: 1.8rem;
   color: #38686A;
@@ -132,10 +132,7 @@ font-family: Neucha;
   font-size: 1rem;
   color: #38686A;
 }
-.column
-{
-    min-height: 700px;
-}
+
 .service-divider
 {
     visibility: hidden;
@@ -192,7 +189,7 @@ font-family: Neucha;
     color:#2F4F4F;
 }
 
-.contact-heading {
+.heading {
     font-family: "Coming Soon", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -217,11 +214,35 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #187795;
 }
+.col-50 h6 {
+
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size:1.2em;
+  font-family: "Neucha";
+}
+.col-50
+{
+    padding-top:5em;
+    padding-bottom:12em;
+    background-color:#A3B4A2;
+}
+
+.qualification
+{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
 @media screen and (max-width: 1024px) {
-  #Services div {
+  #services div {
     width: 100%;
   }
+.col-50 h6 {
 
+  width: 100%;
+}
   #About-Me div {
     width: 100%;
   }
