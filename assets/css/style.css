@@ -20,7 +20,7 @@
 }
 
 
-.navbar-light .navbar-toggler-icon{
+.navbar-light .navbar-toggler-icon {
   background-image: url("https://image.flaticon.com/icons/png/512/616/616408.png");
 }
 
@@ -47,14 +47,13 @@
 }
 
 
-.divider
-{
-    max-width: 5rem;
-    border-width: .2rem;
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-    border: none;
-    border-top: 1px solid #2F4F4F;
+.divider {
+  max-width: 5rem;
+  border-width: .2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 1px solid #2F4F4F;
 }
 
 .Landingtext {
@@ -69,34 +68,37 @@
   opacity: 80%;
   width: 20%;
 }
-.About{
-      padding: 200px 40px;
-      text-align:center;
+
+.About {
+  padding: 200px 40px;
+  text-align: center;
 }
+
 .name {
   position: relative;
   color: #38686A;
   font-family: Neucha;
   font-size: 1.8em;
   text-align: center;
-  padding-bottom:30px;
-  letter-spacing:0.05rem;
+  padding-bottom: 30px;
+  letter-spacing: 0.05rem;
 }
 
 .short-about {
   font-size: 0.97rem;
-  margin-left:4rem;
-  margin-right:4rem;
-font-family: Neucha;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-family: Neucha;
 }
+
 .btn {
   font-family: "Coming Soon";
-  color:#2F4F4F
+  color: #2F4F4F
 }
-.btn :hover
-{
-    color: #187795;
-    text-decoration: underline;
+
+.btn :hover {
+  color: #187795;
+  text-decoration: underline;
 }
 
 #services div {
@@ -108,18 +110,20 @@ font-family: Neucha;
   padding-right: 2em;
   text-align: center;
 }
-#services
-{
-    padding-bottom:40em;
-    padding-left:40px;
+
+#services {
+  padding-bottom: 40em;
+  padding-left: 40px;
 }
+
 .service-icon {
-    font-size: 2.375rem;
-    padding-bottom:2.89rem;
-    text-align: center;
-    width: 100%;
-    color: #2F4F4F;
+  font-size: 2.375rem;
+  padding-bottom: 2.89rem;
+  text-align: center;
+  width: 100%;
+  color: #2F4F4F;
 }
+
 .service {
   font-family: Neucha;
   font-size: 1.8rem;
@@ -133,31 +137,33 @@ font-family: Neucha;
   color: #38686A;
 }
 
-.service-divider
-{
-    visibility: hidden;
-}
-.title
-{
-    text-align:center;
-    font-family: "Coming Soon";
-    padding-top:200px;
-    padding-bottom:100px;
+.service-divider {
+  visibility: hidden;
 }
 
-.about-me , .tips {
+.title {
+  text-align: center;
+  font-family: "Coming Soon";
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.about-me,
+.tips {
   font-family: Neucha;
   font-size: 1.1rem;
-  text-align:center;
+  text-align: center;
   color: #38686A;
   padding-bottom: 0.5rem;
 }
-.main-par{
-    padding-left: 4em;
-    padding-right:4em;
+
+.main-par {
+  padding-left: 4em;
+  padding-right: 4em;
 }
-.end{
-      padding-bottom:200px;
+
+.end {
+  padding-bottom: 200px;
 }
 
 .site-footer {
@@ -167,7 +173,7 @@ font-family: Neucha;
 .Socials {
   display: inline-block;
   color: #38686A;
-  float:left;
+  float: left;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
   font-size: 2em;
@@ -179,70 +185,72 @@ font-family: Neucha;
   color: #A3B4A2;
 }
 
-.policy
-{
-    float: right;
-    color:#2F4F4F;
-    padding-top:30px;
+.policy {
+  float: right;
+  color: #2F4F4F;
+  padding-top: 30px;
 }
-.policy :hover{
-    color:#2F4F4F;
+
+.policy :hover {
+  color: #2F4F4F;
 }
 
 .heading {
-    font-family: "Coming Soon", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+  font-family: "Coming Soon", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
-.subhead
-{
-    font-family: "Coming Soon", sans-serif;
+.subhead {
+  font-family: "Coming Soon", sans-serif;
 }
 
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
 }
 
 button[type="submit"] {
-    font-family: "Coming Soon", sans-serif;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #187795;
+  font-family: "Coming Soon", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #187795;
 }
+
 .col-50 h6 {
 
   width: 50%;
   float: left;
   text-align: center;
-  font-size:1.2em;
+  font-size: 1.2em;
   font-family: "Neucha";
 }
-.col-50
-{
-    padding-top:5em;
-    padding-bottom:12em;
-    background-color:#A3B4A2;
+
+.col-50 {
+  padding-top: 5em;
+  padding-bottom: 12em;
+  background-color: #A3B4A2;
 }
 
-.qualification
-{
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: inside;
+.qualification {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
 }
+
 @media screen and (max-width: 1024px) {
   #services div {
     width: 100%;
   }
-.col-50 h6 {
 
-  width: 100%;
-}
+  .col-50 h6 {
+
+    width: 100%;
+  }
+
   #About-Me div {
     width: 100%;
   }
@@ -250,9 +258,9 @@ button[type="submit"] {
   .Landingtext {
     visibility: hidden;
   }
-  .service-divider
-  {
-      visibility: visible; 
+
+  .service-divider {
+    visibility: visible;
   }
 }
 
