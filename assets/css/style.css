@@ -232,13 +232,33 @@ button[type="submit"] {
 .col-50 {
   padding-top: 5em;
   padding-bottom: 12em;
-  background-color: #A3B4A2;
+  background-color:#2F4F4F;
+  color:azure;
 }
 
 .qualification {
   display: list-item;
   list-style-type: disc;
   list-style-position: inside;
+}
+
+.card-header{
+    text-align:center;
+    border-bottom: none;
+
+}
+.card-header :hover{
+    color: #187795;
+}
+.card-body
+{
+    font-family: Neucha;
+
+}
+.Training
+{
+    padding-bottom:10em;
+    padding-top:10em;
 }
 
 @media screen and (max-width: 1024px) {
