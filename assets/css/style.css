@@ -112,8 +112,9 @@
 }
 
 #services {
-  padding-bottom: 40em;
+  padding-bottom: 20em;
   padding-left: 40px;
+  background-color: #2F4F4F;
 }
 
 .service-icon {
@@ -121,24 +122,28 @@
   padding-bottom: 2.89rem;
   text-align: center;
   width: 100%;
-  color: #2F4F4F;
+  color: azure;
 }
 
 .service {
   font-family: Neucha;
   font-size: 1.8rem;
-  color: #38686A;
+  color: azure;
   text-align: center;
 }
 
 .subtxt {
   font-family: Neucha;
   font-size: 1rem;
-  color: #38686A;
+  color: azure;
 }
 
 .service-divider {
   visibility: hidden;
+}
+.contact
+{
+    padding-top:15em;
 }
 
 .title {
