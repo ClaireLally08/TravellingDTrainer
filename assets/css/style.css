@@ -102,18 +102,17 @@
 
 #services div {
 
-  width: 33%;
+  width: 33.33%;
   height: 300px;
   float: left;
   padding-top: 3em;
   padding-right: 2em;
   text-align: center;
+  background-color: #2F4F4F;
 }
 
 #services {
   padding-bottom: 20em;
-  padding-left: 40px;
-  background-color: #2F4F4F;
 }
 
 .service-icon {
@@ -122,6 +121,7 @@
   text-align: center;
   width: 100%;
   color: azure;
+
 }
 
 .service {
@@ -129,12 +129,14 @@
   font-size: 1.8rem;
   color: azure;
   text-align: center;
+
 }
 
 .subtxt {
   font-family: Neucha;
   font-size: 1rem;
   color: azure;
+  padding-left: 0.975rem;
 }
 
 .service-divider {
@@ -193,6 +195,7 @@
   float: right;
   color: #2F4F4F;
   padding-top: 30px;
+  padding-right:2rem;
 }
 
 .policy :hover {
