@@ -54,7 +54,6 @@
   border: none;
   border-top: 1px solid #2F4F4F;
 }
-
 .Landingtext {
   position: absolute;
   font-family: Neucha;
@@ -101,7 +100,6 @@
 }
 
 #services div {
-
   width: 33.33%;
   height: 300px;
   float: left;
@@ -142,10 +140,6 @@
 .service-divider {
   visibility: hidden;
 }
-.contact
-{
-    padding-top:15em;
-}
 
 .title {
   text-align: center;
@@ -154,8 +148,7 @@
   padding-bottom: 100px;
 }
 
-.about-me,
-.tips {
+.about-me {
   font-family: Neucha;
   font-size: 1.1rem;
   text-align: center;
@@ -212,9 +205,18 @@
 .subhead {
   font-family: "Coming Soon", sans-serif;
 }
+.contact{
+    position:absolute;
+    font-size: 0.5rem;
+    opacity: 90%;
+    width:100%;
+    bottom:3%;
+}
+.contact-text{
+    color:white;
+}
 
 .center-form {
-  padding-top: 10px;
   margin: 0 auto;
   max-width: 70%;
 }
@@ -227,26 +229,23 @@ button[type="submit"] {
   background-color: #187795;
 }
 
-.col-50 h6 {
-
-  width: 50%;
-  float: left;
+.cols li {
+    width:50%;
+    float:left;
   text-align: center;
   font-size: 1.2em;
+
   font-family: "Neucha";
+
 }
 
-.col-50 {
-  padding-top: 5em;
+.cols {
+
+  padding-top: 8em;
   padding-bottom: 12em;
   background-color:#2F4F4F;
   color:azure;
-}
-
-.qualification {
-  display: list-item;
-  list-style-type: disc;
-  list-style-position: inside;
+  list-style:none;
 }
 
 .card-header{
@@ -272,12 +271,21 @@ button[type="submit"] {
   #services div {
     width: 100%;
   }
-
-  .col-50 h6 {
+.contact{
+    position:relative;
+    padding-top:10em;
+}
+.contact-text{
+    
+    color:#2F4F4F;
+}
+  .cols li {
 
     width: 100%;
   }
-
+.cols{
+    padding-bottom: 15em;
+}
   #About-Me div {
     width: 100%;
   }
