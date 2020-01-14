@@ -5,7 +5,6 @@
   position: relative;
   width: 100%
 }
-
 #logo {
   letter-spacing: 2px;
   line-height: 0.7;
@@ -155,12 +154,13 @@
   color: #38686A;
   padding-bottom: 0.5rem;
 }
-
-.main-par {
-  padding-left: 4em;
-  padding-right: 4em;
+.sideimg{
+  margin-top:10rem;
+    border-style: solid;
+    border-width:0.675rem;
+    border-color:#2F4F4F;
+    border-radius:2rem;
 }
-
 .end {
   padding-bottom: 200px;
 }
