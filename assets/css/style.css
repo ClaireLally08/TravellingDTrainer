@@ -161,6 +161,18 @@
     border-color:#2F4F4F;
     border-radius:2rem;
 }
+.tabs{
+    padding-top:10rem;
+}
+.flag{
+    position:absolute;
+    background-color:#2F4F4F;
+    color:azure;
+    opacity:80%;
+    top:50%;
+    font-size:1.8em;
+    font-family:"Coming Soon";    
+}
 .end {
   padding-bottom: 200px;
 }
