@@ -171,7 +171,13 @@
     opacity:80%;
     top:50%;
     font-size:1.8em;
-    font-family:"Coming Soon";    
+    font-family:"Coming Soon";
+    padding-left:0.34em;
+    padding-right:0.34em;  
+}
+.img-thumbnail{
+    padding:0em;
+    opacity:70%;
 }
 .end {
   padding-bottom: 200px;
