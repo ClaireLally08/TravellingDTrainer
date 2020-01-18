@@ -152,14 +152,24 @@
   font-size: 1.1rem;
   text-align: center;
   color: #38686A;
-  padding-bottom: 0.5rem;
+  margin-top:4rem;
+  line-height: 1.65rem;
 }
-.sideimg{
-  margin-top:10rem;
-    border-style: solid;
-    border-width:0.675rem;
-    border-color:#2F4F4F;
-    border-radius:2rem;
+.right{
+    margin-top:10rem;
+}
+.start{
+    margin-top:10rem;
+}
+.rightimg{
+  margin-top: 8rem;
+  box-shadow: 10px 10px 5px grey;
+  opacity:95%;
+}
+.leftimg{
+    margin-top:12rem;
+      box-shadow: 10px 10px 5px grey;
+      opacity:95%;
 }
 .tabs{
     padding-top:10rem;
