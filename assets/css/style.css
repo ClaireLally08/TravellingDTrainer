@@ -184,7 +184,7 @@
 .Socials {
   display: inline-block;
   color: #38686A;
-  float: left;
+  text-align:center;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
   font-size: 2em;
