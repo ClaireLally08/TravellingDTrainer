@@ -17,8 +17,6 @@
 #logo:hover {
   color: #A3B4A2;
 }
-
-
 .navbar-light .navbar-toggler-icon {
   background-image: url("https://image.flaticon.com/icons/png/512/616/616408.png");
 }
@@ -29,7 +27,6 @@
   letter-spacing: 2px;
   text-align: center;
 }
-
 .navbar-light .navbar-nav .nav-link {
   color: #2F4F4F;
 }
@@ -189,6 +186,16 @@
     padding:0em;
     opacity:70%;
 }
+.col-lg-4{
+    margin-top:3em;
+}
+.dog-icon{
+    height:15rem;
+    width:15rem;
+}
+.col-sm-8{
+    margin-top:5rem;
+}
 .end {
   padding-bottom: 200px;
 }
@@ -294,8 +301,21 @@ button[type="submit"] {
     padding-bottom:10em;
     padding-top:10em;
 }
-
+.lessons{
+    margin-top:20rem;
+}
 @media screen and (max-width: 1024px) {
+   .dog-icon{
+    height:10rem;
+    width:10rem;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+.col-sm-8{
+    margin-top:2rem;
+}
   #services div {
     width: 100%;
   }
