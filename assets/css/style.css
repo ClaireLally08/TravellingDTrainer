@@ -5,6 +5,7 @@
   position: relative;
   width: 100%
 }
+
 #logo {
   letter-spacing: 2px;
   line-height: 0.7;
@@ -17,6 +18,7 @@
 #logo:hover {
   color: #A3B4A2;
 }
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("https://image.flaticon.com/icons/png/512/616/616408.png");
 }
@@ -27,6 +29,7 @@
   letter-spacing: 2px;
   text-align: center;
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: #2F4F4F;
 }
@@ -41,7 +44,6 @@
   color: #A3B4A2;
 }
 
-
 .divider {
   max-width: 5rem;
   border-width: .2rem;
@@ -50,6 +52,7 @@
   border: none;
   border-top: 1px solid #2F4F4F;
 }
+
 .Landingtext {
   position: absolute;
   font-family: Neucha;
@@ -149,53 +152,54 @@
   font-size: 1.1rem;
   text-align: center;
   color: #38686A;
-  margin-top:4rem;
   line-height: 1.65rem;
+  margin-top:2rem;
 }
-.right{
-    margin-top:10rem;
-}
-.start{
-    margin-top:10rem;
-}
-.rightimg{
-  margin-top: 8rem;
+
+.sideimg {
   box-shadow: 10px 10px 5px grey;
-  opacity:95%;
+  opacity: 95%;
 }
-.leftimg{
-    margin-top:12rem;
-      box-shadow: 10px 10px 5px grey;
-      opacity:95%;
+.col-sm-6{
+    margin-top:6rem;
+    margin-bottom:5rem;
 }
-.tabs{
-    padding-top:10rem;
+.tabs {
+  padding-top: 10rem;
 }
-.flag{
-    position:absolute;
-    background-color:#2F4F4F;
-    color:azure;
-    opacity:80%;
-    top:50%;
-    font-size:1.8em;
-    font-family:"Coming Soon";
-    padding-left:0.34em;
-    padding-right:0.34em;  
+
+.flag {
+  position: absolute;
+  background-color: #2F4F4F;
+  color: azure;
+  opacity: 80%;
+  top: 50%;
+  font-size: 1.8em;
+  font-family: "Coming Soon";
+  padding-left: 0.34em;
+  padding-right: 0.34em;
 }
-.img-thumbnail{
-    padding:0em;
-    opacity:70%;
+
+.img-thumbnail {
+  padding: 0em;
+  opacity: 70%;
 }
-.col-lg-4{
-    margin-top:3em;
+
+.col-lg-4 {
+  margin-top: 3em;
 }
-.dog-icon{
-    height:15rem;
-    width:15rem;
+
+.dog-icon {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 6rem;
+  margin-left: 6rem;
 }
-.col-sm-8{
-    margin-top:5rem;
+
+.col-sm-8 {
+  margin-top: 5rem;
 }
+
 .end {
   padding-bottom: 200px;
 }
@@ -207,7 +211,7 @@
 .Socials {
   display: inline-block;
   color: #38686A;
-  text-align:center;
+  text-align: center;
   margin-top: 2.5px;
   margin-bottom: 2.5px;
   font-size: 2em;
@@ -223,7 +227,7 @@
   float: right;
   color: #2F4F4F;
   padding-top: 30px;
-  padding-right:2rem;
+  padding-right: 2rem;
 }
 
 .policy :hover {
@@ -240,15 +244,17 @@
 .subhead {
   font-family: "Coming Soon", sans-serif;
 }
-.contact{
-    position:absolute;
-    font-size: 0.5rem;
-    opacity: 90%;
-    width:100%;
-    bottom:3%;
+
+.contact {
+  position: absolute;
+  font-size: 0.5rem;
+  opacity: 90%;
+  width: 100%;
+  bottom: 3%;
 }
-.contact-text{
-    color:white;
+
+.contact-text {
+  color: white;
 }
 
 .center-form {
@@ -265,8 +271,8 @@ button[type="submit"] {
 }
 
 .cols li {
-    width:50%;
-    float:left;
+  width: 50%;
+  float: left;
   text-align: center;
   font-size: 1.2em;
 
@@ -278,62 +284,73 @@ button[type="submit"] {
 
   padding-top: 8em;
   padding-bottom: 12em;
-  background-color:#2F4F4F;
-  color:azure;
-  list-style:none;
+  background-color: #2F4F4F;
+  color: azure;
+  list-style: none;
 }
 
-.card-header{
-    text-align:center;
-    border-bottom: none;
+.card-header {
+  text-align: center;
+  border-bottom: none;
 
 }
-.card-header :hover{
-    color: #187795;
+
+.card-header :hover {
+  color: #187795;
 }
-.card-body
-{
-    font-family: Neucha;
+
+.card-body {
+  font-family: Neucha;
 
 }
-.Training
-{
-    padding-bottom:10em;
-    padding-top:10em;
+
+.Training {
+  padding-bottom: 10em;
+  padding-top: 10em;
 }
-.lessons{
-    margin-top:20rem;
+
+.lessons {
+  margin-top: 20rem;
 }
+
 @media screen and (max-width: 1024px) {
-   .dog-icon{
-    height:10rem;
-    width:10rem;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} 
-.col-sm-8{
-    margin-top:2rem;
-}
+  .dog-icon {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  .col-sm-8 {
+    margin-top: 2rem;
+  }
+
   #services div {
     width: 100%;
   }
-.contact{
-    position:relative;
-    padding-top:10em;
-}
-.contact-text{
-    
-    color:#2F4F4F;
-}
+
+  .contact {
+    position: relative;
+    padding-top: 10em;
+  }
+
+  .contact-text {
+
+    color: #2F4F4F;
+  }
+
   .cols li {
 
     width: 100%;
   }
-.cols{
+
+  .cols {
     padding-bottom: 15em;
-}
+  }
+
   #About-Me div {
     width: 100%;
   }
