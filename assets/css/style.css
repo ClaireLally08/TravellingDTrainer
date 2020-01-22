@@ -3,7 +3,6 @@
 
 .Main-Landing {
   position: relative;
-  width: 100%
 }
 
 #logo {
@@ -37,8 +36,6 @@
 .nav-item:hover {
   text-decoration: underline;
 }
-
-
 .active {
   text-decoration: underline;
   color: #A3B4A2;
@@ -53,20 +50,20 @@
   border-top: 1px solid #2F4F4F;
 }
 
-.Landingtext {
+.landing {
   position: absolute;
   font-family: Neucha;
-  bottom: 10%;
-  left: 20%;
-  background-color: #CDC6AE;
-  color: #38686A;
-  padding: 20px 20px 20px 20px;
+  color: azure;
   font-size: 0.5rem;
-  opacity: 80%;
-  width: 20%;
+  text-align:center;
+  letter-spacing: 0.08rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.About {
+#about {
+
   padding: 200px 40px;
   text-align: center;
 }
@@ -106,10 +103,13 @@
   padding-right: 2em;
   text-align: center;
   background-color: #2F4F4F;
+
 }
 
 #services {
   padding-bottom: 20em;
+  opacity:80%;
+  
 }
 
 .service-icon {
@@ -354,12 +354,7 @@ button[type="submit"] {
   #About-Me div {
     width: 100%;
   }
-
-  .Landingtext {
-    visibility: hidden;
-  }
-
-  .service-divider {
+    .service-divider {
     visibility: visible;
   }
 }
