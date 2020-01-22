@@ -111,7 +111,6 @@
   opacity:80%;
   
 }
-
 .service-icon {
   font-size: 2.375rem;
   padding-bottom: 2.89rem;
@@ -122,18 +121,28 @@
 }
 
 .service {
-  font-family: Neucha;
   font-size: 1.8rem;
-  color: azure;
   text-align: center;
-
+  font-family:Neucha;
 }
-
+.servicehead{
+    font-size:2rem;
+    font-family:Neucha;
+}
 .subtxt {
   font-family: Neucha;
   font-size: 1rem;
-  color: azure;
   padding-left: 0.975rem;
+}
+.white{
+     color: azure;
+}
+.green{
+    color:#2F4F4F
+}
+.length{
+    font-family:Neucha;
+    font-size:1.3rem;
 }
 
 .service-divider {
