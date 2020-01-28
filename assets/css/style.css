@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Coming+Soon|Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:800|Oswald|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400|Source+Sans+Pro&display=swap');
 
 .Main-Landing {
   position: relative;
@@ -24,10 +25,12 @@
 }
 
 .nav-item {
-  font-family: "Coming Soon";
-  font-size: 150%;
-  letter-spacing: 2px;
+  font-family: "Poppins";
+
+  font-size: 1.5rem;;
+  letter-spacing: 3px;
   text-align: center;
+  font-weight:300;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -53,7 +56,7 @@
 
 .landing {
   position: absolute;
-  font-family: "Open Sans" sans-serif;
+  font-family: "Open Sans";
   color: azure;
   text-align:center;
   top: 50%;
@@ -78,7 +81,7 @@
 .name {
   position: relative;
   color: #38686A;
-  font-family: "Roboto";
+  font-family: "Poppins";
   font-size: 2.5em;
   text-align: center;
   padding-bottom: 30px;
@@ -89,15 +92,13 @@
   font-size: 1.3rem;
   margin-left: 4rem;
   margin-right: 4rem;
-  font-family: Lato;
-  font-weight: 300;
-letter-spacing: normal;
-line-height: 30px;
+  font-family: "Source Sans Pro";
 }
 
 .btn {
-  font-family: "Coming Soon";
-  color: #2F4F4F
+  font-family: "Poppins";
+  color: #2F4F4F;
+  font-size:1.2rem;
 }
 
 .btn :hover {
@@ -122,7 +123,7 @@ line-height: 30px;
   
 }
 .service-icon {
-  font-size: 2.375rem;
+  font-size: 3em;
   padding-bottom: 2.89rem;
   text-align: center;
   width: 100%;
@@ -133,14 +134,14 @@ line-height: 30px;
 .service {
   font-size: 1.8rem;
   text-align: center;
-  font-family:Neucha;
+  font-family:"Poppins";
 }
 .servicehead{
     font-size:2rem;
-    font-family:Neucha;
+    font-family:"Source Sans Pro";
 }
 .subtxt {
-  font-family: Neucha;
+  font-family: "Source Sans Pro";
   font-size: 1rem;
   padding-left: 0.975rem;
 }
@@ -157,6 +158,7 @@ line-height: 30px;
 
 .service-divider {
   visibility: hidden;
+  display:none;
 }
 .title {
   text-align: center;
@@ -340,7 +342,10 @@ button[type="submit"] {
     margin-right: auto;
     width: 50%;
   }
-
+.landing{
+    visibility: hidden;
+    display:none;
+}
 
   .col-sm-8 {
     margin-top: 2rem;
