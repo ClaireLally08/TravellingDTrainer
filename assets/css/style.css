@@ -263,7 +263,7 @@
   font-weight: 400;
   margin-top: 25px;
   margin-bottom: 20px;
-  text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1);s
+  text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 0.5);s
 }
 
 .subhead {
