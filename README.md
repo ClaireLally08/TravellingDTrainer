@@ -41,4 +41,13 @@ Scope
 For the user, I wanted to provide an educational service to show and make dog ownership a more positive experience. 
 
 Structure
-The 
+Skeleton
+Surface
+Existing Features
+What's left to implement
+
+Technologies Used
+Testing
+Deployment
+Credits/Media
+Acknowledgements
