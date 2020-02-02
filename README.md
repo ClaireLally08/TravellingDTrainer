@@ -41,6 +41,13 @@ Scope
 For the user, I wanted to provide an educational service to show and make dog ownership a more positive experience. 
 
 Structure
+
+The main structure of the website involves 4 main sections, which include images and information about the TDT. 
+The navbar is positioned at the top and is fixed, so it can be viewed even when scrolling. For a softer viewing experience, the body of the website is an off-white color, with a white navbar, to ensure it doens't blend with the body. 
+ In small screens, the navbar will collapse into a bespoke "hamburger" style icon of a dogs face. When the icon is clicked, the navbar will expand and show the whole menu.
+
+The main landing image has a text animation for special design. The heading text on each page has a shadow effect to really emphasise them. 
+The images on the about page have a right drop shadow to enhance them also. 
 Skeleton
 Surface
 Existing Features
