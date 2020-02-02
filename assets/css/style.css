@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:300,400|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
 body {
   background-color: #EEEEEE;
@@ -15,7 +16,7 @@ body {
 #logo {
   letter-spacing: 2px;
   line-height: 0.7;
-  font-family: "Coming Soon";
+  font-family: "Amatic SC";
   font-size: 250%;
   color: #294D4A;
   text-align: left;
