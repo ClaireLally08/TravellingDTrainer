@@ -43,7 +43,7 @@ In the footer, there are links to all their social media, so you can connect wit
 
   
 
-# User Stories
+## User Stories
 
   
 
@@ -67,7 +67,7 @@ As the owner, I want to:
 
   
 
-# Strategy
+## Strategy
 
   
 
@@ -75,13 +75,13 @@ My goal was to create a minimalist and user-friendly website as possible, to bot
 
   
 
-# Scope
+## Scope
 
 For the user, I wanted to provide an educational service to show and make dog ownership a more positive experience.
 
   
 
-# Structure
+## Structure
 
   
 
@@ -99,7 +99,7 @@ The images on the about page have a right drop shadow to enhance them also.
 
   
 
-# Skeleton
+## Skeleton
 
   
 
@@ -110,14 +110,14 @@ The wireframes for these can be viewed here:
   
   
 
-# Surface
+## Surface
 
 The color scheme I chose is a minimalist one, with the emphasis on greens which for myself personally signifiy a relationship with the outdoors.
 
   
 > # Features
 > 
-# Existing Features
+## Existing Features
 
 About - In this section, the reader the Travelling Dog Trainer learns some of the details regarding my history in dog training, as well as information relating to dog training in Ireland
 
@@ -127,46 +127,43 @@ Contact - This section is not yet live, allows the user send a message.
 
   
 
-# What's left to implement
+## What's left to implement
 
 Future plans for this site include,
 
 - Making the contact page live and functional
-
+- Use of a CNAME (Canonical Name) URL
 - Creating a training tips page, which provides detailed information on basic dog training commands.
-
 - A user-login page for clients to view past training class notes and view their 'homework' from each of the training classes as well as a diary entry section to document any behaviors their dog may be exhibiting.
 
   
 
-# Technologies Used
+## Technologies Used
 
 - HTML,
 
 - CSS,
 
-- Bootstrap
+- [Bootstrap](https://getbootstrap.com/)
 
  
 Also made use of
 
-- Font Awesome
+- [Font Awesome](fontawesome.com)
 
-- Flat Icon
+- [Flat Icon](https://www.flaticon.com/)
 
-- Google Fonts
+- [Google Fonts](https://fonts.google.com/)
 
-- Animista
+- [Animista](https://animista.net/)
 
-- HTML Validator
+- [HTML Validator](https://validator.w3.org/)
 
-- CSS Validator
+- [CSS Validator](https://validator.w3.org/)
 
 - Testing with Chrome DevTools
 
-- Testing with Cross Browser Testing
-
-- Learned from W3schools
+- Learned from [W3schools](https://www.w3schools.com/)
 
   
   
@@ -219,4 +216,4 @@ To create this website, I used many resources, like Stack Overflow, the wonderfu
 
   
 
-The Keyframes for the Animation on the landing page was taken from Animista
+The Keyframes for the Animation on the landing page was taken from [Animista](https://animista.net/)
