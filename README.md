@@ -132,9 +132,11 @@ The wireframes for these can be viewed here:
 
 The color scheme I chose is a minimalist one, with the emphasis on greens which for myself personally signifiy a relationship with the outdoors.
 
+
   
 > # Features
-> 
+
+
 ## Existing Features
 
 About - In this section, the reader the Travelling Dog Trainer learns some of the details regarding my history in dog training, as well as information relating to dog training in Ireland
