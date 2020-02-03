@@ -122,10 +122,10 @@ The website has been structured in four pages, including landing page and the fo
 
 The wireframes for these can be viewed here:
 
-  [Index Page](wireframes/Index.png);
-  [About Page](wireframes/About.png);
-  [Services Page](wireframes/Services.png);
-  [Contact Page](wireframes/Contact.png);
+ -  [Index Page](wireframes/Index.png)
+  - [About Page](wireframes/About.png)
+  - [Services Page](wireframes/Services.png)
+  - [Contact Page](wireframes/Contact.png)
   
 
 ## Surface
