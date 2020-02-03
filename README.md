@@ -122,7 +122,10 @@ The website has been structured in four pages, including landing page and the fo
 
 The wireframes for these can be viewed here:
 
-  
+  [Index Page](wireframes/Index.png);
+  [About Page](wireframes/About.png);
+  [Services Page](wireframes/Services.png);
+  [Contact Page](wireframes/Contact.png);
   
 
 ## Surface
@@ -216,6 +219,9 @@ I then decided to use a custom URL, so created a CNAME file with the URL www.tra
 
 The live link can be found here - https://clairelally8.github.io/TravellingDTrainer/index.html
 
+To run locally, you can clone this repository directly in your favorite editor, by typing in the terminal the following command:
+
+git clone https://github.com/clairelally8/travellingdtrainer.git
 > # Credits/Media
 
 All images used on this page were taken by myself.
