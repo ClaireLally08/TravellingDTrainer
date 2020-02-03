@@ -12,7 +12,22 @@ Finding a dog trainer in Ireland really is not an easy task. There's next to no 
   
 
 Taking a special focus on the areas outside of Dublin, and specifically, rural Ireland. The TDT's aim is to educate dog owners by teaching and practicing positive-reinforcement training methods.
-
+> ## Contents
+* [UX](https://github.com/iulianpro/my-city#ux)
+    - [User stories](https://github.com/clairelally8/travellingdtrainer#user-stories)
+    - [Strategy](https://github.com/clairelally8/travellingdtrainer#strategy)
+    - [Scope](https://github.com/clairelally8/travellingdtrainer#scope)
+    - [Structure](https://github.com/clairelally8/travellingdtrainer#structure)
+    - [Skeleton](https://github.com/clairelally8/travellingdtrainer#skeleton)
+    - [Surface](https://github.com/clairelally8/travellingdtrainer#surface)
+* [Features](https://github.com/clairelally8/travellingdtrainer#features)
+    - [Existing Features](https://github.com/clairelally8/travellingdtrainer#existing-features)
+    - [Features Left to Implement](https://github.com/clairelally8/travellingdtrainer#features-left-to-implement)
+* [Technologies Used](https://github.com/clairelally8/travellingdtrainer#technologies-used)
+* [Testing](https://github.com/clairelally8/travellingdtrainer#testing)
+* [Deployment](https://github.com/clairelally8/travellingdtrainer#deployment)
+* [Credits/Media](https://github.com/clairelally8/travellingdtrainer#Credits/Media)
+    - [Acknowledgements](https://github.com/clairelally8/travellingdtrainer#Acknowledgements)
   
 
 > # UX
@@ -127,7 +142,7 @@ Contact - This section is not yet live, allows the user send a message.
 
   
 
-## What's left to implement
+## Features left to implement
 
 Future plans for this site include,
 
@@ -187,6 +202,7 @@ I conducted several user tests to ensure there was an ease of use with this site
 
  
 In my account GitHub website, I selected Repositories
+
 
 I selected TravellingDTrainer from the GitHub Dashboard.
 
