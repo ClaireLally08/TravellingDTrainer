@@ -13,7 +13,6 @@ Finding a dog trainer in Ireland really is not an easy task. There's next to no 
 
 Taking a special focus on the areas outside of Dublin, and specifically, rural Ireland. The TDT's aim is to educate dog owners by teaching and practicing positive-reinforcement training methods.
 > ## Contents
-* [UX](https://github.com/iulianpro/my-city#ux)
     - [User stories](https://github.com/clairelally8/travellingdtrainer#user-stories)
     - [Strategy](https://github.com/clairelally8/travellingdtrainer#strategy)
     - [Scope](https://github.com/clairelally8/travellingdtrainer#scope)
