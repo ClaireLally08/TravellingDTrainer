@@ -3,7 +3,7 @@
 
   
 
-This is a website I created to promote a (fictious) dog training business. The Travelling Dog Trainer (TDT) business focus is to educate owners on responsible dog ownership.
+This is a site I created to promote a (fictious) dog training business. The Travelling Dog Trainer (TDT) business focus is to educate owners on responsible dog ownership.
 
   
 
